@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/produtos/inserir
+Content-Type: application/json
+
+{
+  "cpf": "55144929826",
+  "nome": "Ana",
+  "email": "ana.cruz@germinare.org.br",
+  "telefone": "11970116174"
+}

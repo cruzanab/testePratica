@@ -1,0 +1,9 @@
+PUT http://localhost:8080/api/produtos/atualizar/15
+Content-Type: application/json
+
+{
+  "nome": null,
+  "descricao": "Franguinho perfeito para um almocinho da family",
+  "preco": 12.80,
+  "quantidadeEstoque": -300
+}
